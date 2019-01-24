@@ -13,3 +13,4 @@ This is some text that will be about what I did to analyze the data.
 
 I typed this is Typora.
 
+![network_plot](network_plot.jpg)
