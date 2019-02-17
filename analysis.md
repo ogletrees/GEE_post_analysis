@@ -25,7 +25,7 @@ Looking at the number of posts by month there has been a steady growth in the us
 
 ![](plot_by_week.jpg)
 
-This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays :smile:
+This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays :)
 
 We can also look at the number of posts by time of day.
 
@@ -128,7 +128,7 @@ Looking at trigrams the 'internal server error' and 'user memory limit' seem to 
 
 ***
 
-I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. Let's look at it anyway ​::smile::​.
+I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. I modeled this off of the book [*Text Mining with R*](https://www.tidytextmining.com/) Let's look at it anyway...
 
 ![](topic_terms.jpg)
 
