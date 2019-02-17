@@ -128,7 +128,7 @@ Looking at trigrams the 'internal server error' and 'user memory limit' seem to 
 
 ***
 
-I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. I modeled this off of the book [*Text Mining with R*](https://www.tidytextmining.com/) Let's look at it anyway...
+I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. I modeled this off of the book [*Text Mining with R*](https://www.tidytextmining.com/). Let's look at it anyway...
 
 ![](topic_terms.jpg)
 
