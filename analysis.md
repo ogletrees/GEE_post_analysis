@@ -33,7 +33,7 @@ Looking at the number of posts by month there has been a steady growth in the us
 
 ![](plot_by_week.jpg)
 
-This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays ::smile::
+This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays :smile:
 
 We can also look at the number of posts by time of day.
 
@@ -98,6 +98,8 @@ Looking at the most common words, bigrams and trigrams.
 | images     |  300 |
 | time       |  291 |
 
+Looking at single word frequencies is not much help. The image collection is a key part of Google Earth Engine so bath words occur often. 'Error' also would be excepted as users look for assistance.
+
 | word1      | word2      |    n |
 | :--------- | :--------- | ---: |
 | earth      | engine     |  226 |
@@ -111,7 +113,7 @@ Looking at the most common words, bigrams and trigrams.
 | google     | earth      |   96 |
 | sentinel   | 2          |   92 |
 
-We can view these word pairs in a network graph too.
+The word pairs provide a bit more information. Both Landsat 8 and Sentinel 2 appear popular data sources. Image and feature collections show up as these are key building blocks of Earth Engine use. We can view these word pairs in a network graph too.
 
 ![](network_plot.jpg)
 
@@ -132,7 +134,9 @@ Looking at trigrams the 'internal server error' and 'user memory limit' seem to 
 | landsat surface reflectance |   16 |
 | earth engine user           |   15 |
 
-I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. Let's look at it anyway :smile:.
+***
+
+I attempted to use topic modeling on the post titles, but I am not sure that this really works for this use case. Let's look at it anyway ​::smile::​.
 
 ![](topic_terms.jpg)
 
