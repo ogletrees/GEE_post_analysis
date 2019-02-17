@@ -1,14 +1,6 @@
 ---
 title: "Earth Engine Post Analysis"
 ---
-Google Earth Engine is a platform for analyzing satellite data and makes this type of work much easier for the researcher. To quote from the [source](https://earthengine.google.com):
-
-> Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities and makes it available for scientists, researchers, and developers to detect changes, map trends, and quantify differences on the Earth's surface.
-
-Earth Engine was started in 2010 (as far as I can tell) and has become a great tool for doing simple to complex analysis of satellite imagery. 
-
-If you use Earth Engine you might encounter issues that others can help with. Of course, you should consult the documentation first, but a help forum is available where other users and staff can help out. In my work I have found many answers on the forum and this led me to wonder what has been discussed in the many posts over time.
-
 # The Data
 
 Post titles were sourced from the forum page. Basically I just scrolled to the bottom and saved that page as `.html`. Then the `.html` file could be scraped in R. I only used post titles as scraping post text seems very complicated for Google Groups that require signing in.
@@ -98,7 +90,7 @@ Looking at the most common words, bigrams and trigrams.
 | images     |  300 |
 | time       |  291 |
 
-Looking at single word frequencies is not much help. The image collection is a key part of Google Earth Engine so bath words occur often. 'Error' also would be excepted as users look for assistance.
+Looking at single word frequencies is not much help. The image collection is a key part of Google Earth Engine so both words occur often. 'Error' also would be excepted as users look for assistance.
 
 | word1      | word2      |    n |
 | :--------- | :--------- | ---: |
