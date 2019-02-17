@@ -1,23 +1,6 @@
 ---
 title: "Earth Engine Post Analysis"
 ---
-
-blah
-
-
-```{r setup, include=FALSE, message=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-library(tidyverse)
-library(tidytext)
-library(lubridate)
-library(here)
-library(widyr)
-library(igraph)
-library(ggraph)
-
-posts <- readRDS(here("gee_posts_data.rds"))
-```
 Google Earth Engine is a platform for analyzing satellite data and makes this type of work much easier for the researcher. To quote from the [source](https://earthengine.google.com):
 
 > Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities and makes it available for scientists, researchers, and developers to detect changes, map trends, and quantify differences on the Earth's surface.
