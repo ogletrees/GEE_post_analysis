@@ -33,7 +33,7 @@ Looking at the number of posts by month there has been a steady growth in the us
 
 ![](plot_by_week.jpg)
 
-This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays :smile:
+This view is a bit more busy, but a distinct dip in use shows up at the beginning of each year. Perhaps everyone takes a break for the holidays ::smile::
 
 We can also look at the number of posts by time of day.
 
